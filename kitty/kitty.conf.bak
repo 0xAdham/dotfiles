@@ -1,0 +1,14 @@
+background_opacity .85
+background_blur 100
+
+font_family      JetBrains Mono Nerd Font, Tajawal
+font_size        12
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+
+
+# BEGIN_KITTY_THEME
+# Bluloco Dark
+include current-theme.conf
+# END_KITTY_THEME
