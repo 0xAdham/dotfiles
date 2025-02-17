@@ -30,9 +30,9 @@ bindsym $mod+m exec i3-msg exit
 exec --no-startup-id feh --bg-fill /home/leo/Pictures/wallpapers/wallpaper.jpg
 
 # autotiling in i3wm
-exec_always --no-startup-id /home/leo/.config/i3/autotiling.py
+exec_always --no-startup-id /home/$USER/.config/i3/autotiling.py
 # Borders
-exec_always --no-startup-id xborders --config .config/xborder/config.json
+exec_always --no-startup-id /home/$USER/.config/i3/xborders --config .config/xborder/config.json
 # start a terminal
 bindsym $mod+q exec --no-startup-id kitty
 
